@@ -8,15 +8,15 @@
 </head>
 
 <body class="bg-gray-800">
-    <div class="w-11/12 mx-auto p-6 mt-10 max-w-sm rounded-lg shadow-md">
+    <div class="w-11/12 mx-auto p-6 mt-10 max-w-md rounded-lg shadow-md border border-gray-500 text-gray-400">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-400">
                 Import ETHONE network to
                 Metamask 👇</h5>
         </a>
         <!-- <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p> -->
         <a id="add" href="#"
-            class="inline-flex items-center py-2 px-3 mt-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            class="inline-flex items-center py-2 px-3 mt-8 text-sm font-medium text-center text-gray-400 bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Click Here
             <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg">
@@ -25,6 +25,17 @@
                     clip-rule="evenodd"></path>
             </svg>
         </a>
+
+        <p class="mt-10">
+           <h2 class="text-xl underline mb-2">Manual configuration </h2>
+            <code>
+                NETWORK NAME:  Ether One<br />
+                COIN SYMBOL:  EthONE<br />
+                RPC:  https://node1.etherone.one <br />
+                CHAIN ID: 4949 <br />
+                EXPLORER: https://explorer2.etherone.one <br />
+            </code>
+        </p>
     </div>
 
     <script>
@@ -38,7 +49,7 @@
                         chainName: 'Ether One Chain',
                         nativeCurrency: {
                             name: 'Ether One Coin',
-                            symbol: 'ETHONE',
+                            symbol: 'EthONE',
                             decimals: 18
                         },
                         rpcUrls: ['https://node1.etherone.one/'],
